@@ -13,7 +13,8 @@
 - **CSS**: 스타일링 및 레이아웃
 - **JavaScript**: ToDo 리스트의 동작 로직 구현
 
-![ToDoList](file:///Users/jiwon/Desktop/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-03-18%20%EC%98%A4%ED%9B%84%2011.33.07.png)
+![ToDoList](https://github.com/username/repository/raw/main/images/스크린샷%202025-03-18%20오후%2011.33.07.png)
+
 ## 플로우차트 설명
 
 이 프로젝트에서 사용한 플로우차트는 웹 애플리케이션의 주요 동작 흐름을 시각적으로 나타냅니다.
