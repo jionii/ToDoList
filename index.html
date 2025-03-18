@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <section class="container">
+        <header class="header">
+            <h1>오늘의 할 일</h1>
+            <input type="text" class="search_input" placeholder="검색하기">
+        </header>        
+        <ul class="items">
+        </ul>
+        <footer class="footer">
+            <!-- <input type="text" class="footer_input"> -->
+            <i class="fa-solid fa-plus"></i>
+        </footer>
+    </section>
+
+    <!-- 모달 -->
+    <div class="modal hidden">
+        <div class="modal_content">
+            <h2>할 일 추가</h2>
+            <label>제목:</label>
+            <input type="text" id="taskTitle">
+
+            <label>시작일:</label>
+            <input type="date" id="startDate">
+
+            <label>마감일:</label>
+            <input type="date" id="endDate">
+
+            <label>중요도:</label>
+            <select id="priority">
+                <option value="높음">높음</option>
+                <option value="보통">보통</option>
+                <option value="낮음">낮음</option>
+            </select>
+
+            <label>카테고리:</label>
+            <input type="text" id="category">
+
+            <div class="modal_buttons">
+                <button id="addTaskBtn">추가</button>
+                <button id="closeModal">닫기</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
