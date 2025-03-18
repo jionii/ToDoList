@@ -13,7 +13,7 @@
 - **CSS**: 스타일링 및 레이아웃
 - **JavaScript**: ToDo 리스트의 동작 로직 구현
 
-![ToDoList](https://github.com/username/repository/raw/main/images/스크린샷%202025-03-18%20오후%2011.33.07.png)
+![ToDoList](https://github.com/jionii/ToDoList/blob/main/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202025-03-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2011.33.07.png)
 
 ## 플로우차트 설명
 
